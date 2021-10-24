@@ -65,6 +65,8 @@ Dargestellt wurde die Laufzeit je Episode sowie die Laufzeit der Episode mit ein
 Schlussendlich wurde das Ziel erreicht und die Timestamps konnten erfolgreich herausgelesen werden.
 Bei der Auswertung wurde deutlich dass es immer zwei Werbeblöcke gibt.
 Erstaunlicherweise beträgt die Summe dieser Blöcke so gut wie immer 284 Sekunden.
+Die zwei Blöcke setzen sich zusammen aus einem 152 sekündigen und einem 132 sekündigen Block.
+Ob zuerst der lange oder der kurze Block kommt, ist unterschiedlich.
 Seit Folge 94 ist die jedoch anscheinend nicht mehr der Fall.
 
 ![Plot Ad Duration](plot_ads.png "Plot Ad Duration")
@@ -143,6 +145,8 @@ The running time per episode as well as the running time of the episode with a t
 Finally, the goal was achieved and the timestamps could be read out successfully.
 During the evaluation it became clear that there are always two commercial breaks.
 Surprisingly, the sum of these blocks is almost always 284 seconds.
+The two blocks consist of a 152-second block and a 132-second block.
+Whether the long or the short block comes first varies.
 Since episode 94, however, this is apparently no longer the case.
 
 ![Plot Ad Duration](plot_ads.png "Plot Ad Duration")
