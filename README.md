@@ -68,6 +68,9 @@ Erstaunlicherweise beträgt die Summe dieser Blöcke so gut wie immer 284 Sekund
 Die zwei Blöcke setzen sich zusammen aus einem 152 sekündigen und einem 132 sekündigen Block.
 Ob zuerst der lange oder der kurze Block kommt, ist unterschiedlich.
 Seit Folge 94 ist die jedoch anscheinend nicht mehr der Fall.
+Die Auswertung hatte am 24.10.2021 statt gefunden. Die Werbeblöcke sind so konstant, dass einiges darauf hin deutet, dass die Blöcke im Nachhinein geändert wurden.
+Die Veträge mit Werbepartner gehen üblicherweise nicht lange, so dass später die Werbeblöcke noch ausgetauscht werden.
+Da die letzten Folgen nicht konstant sind deutet ebenfalls darauf hin, da hier noch die 'original' Werbeblöcke enthalten sind.
 
 ![Plot Ad Duration](plot_ads.png "Plot Ad Duration")
 
@@ -148,6 +151,9 @@ Surprisingly, the sum of these blocks is almost always 284 seconds.
 The two blocks consist of a 152-second block and a 132-second block.
 Whether the long or the short block comes first varies.
 Since episode 94, however, this is apparently no longer the case.
+The evaluation had taken place on 24.10.2021. The advertising blocks are so constant that there are indications that the blocks were changed afterwards.
+The contracts with advertising partners usually do not last long, so that the advertising blocks are exchanged later.
+The fact that the last episodes are not constant also indicates that the 'original' advertising blocks are still included.
 
 ![Plot Ad Duration](plot_ads.png "Plot Ad Duration")
 
