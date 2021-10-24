@@ -82,6 +82,12 @@ So konsequent sind diese Ergebisse nicht und die Folgenlänge schwankt stark zwi
 
 ![Plot Podcast Duration](plot_duration.png "Plot Podcast Duration")
 
+## Jakobs Seufzer
+
+In der Folge 'Das Gottesteilchen von Cala Ratata' wurde das erste mal ein Seufzer von Jakob eingespielt.
+Dieser wurde öfters wiederholt.
+[Hier eine Liste mit allen Seufzer](jakob_clean.csv)
+
 
 # Analysis of the podcast 'Baywatch Berlin
 
@@ -164,3 +170,9 @@ Between episode 30 and 66, the episodes were usually around 90 minutes long.
 These results are not that consistent and the episode length fluctuates greatly between 93 and 67 minutes.
 
 ![Plot Podcast Duration](plot_duration.png "Plot Podcast Duration")
+
+## Jacob's sigh
+
+In the episode 'The God Particle of Cala Ratata' a sigh of Jacob was recorded for the first time.
+This was repeated several times.
+[Here is a list of all the sighs](jakob_clean.csv)
