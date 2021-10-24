@@ -1,6 +1,6 @@
 # Analyse des Podcasts 'Baywatch Berlin'
 
-[*** english below ***](PodcastAnalyticsBWB#analysis-of-the-podcast-baywatch-berlin)
+[*** english below ***](README.md#analysis-of-the-podcast-baywatch-berlin)
 
 # Einleitung
 
