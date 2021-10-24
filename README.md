@@ -1,5 +1,7 @@
 # Analyse des Podcasts 'Baywatch Berlin'
 
+*** english below ***
+
 # Einleitung
 
 Der Markt der Podcasts ist in den letzten Jahren stark gewachsen. Viele neue Podcasts treffen auf viele neue Hörer.
@@ -58,3 +60,67 @@ Seit Folge 94 ist die jedoch anscheinend nicht mehr der Fall.
 Die Länge der Folgen hat auch an Volatilität zugenommen.
 Zwischen Folge 30 und 66 waren die Folgen meist rund 90 Minuten lang.
 So konsequent sind diese Ergebisse nicht und die Folgenlänge schwankt stark zwischen 93 und 67 Minuten.
+
+
+# Analysis of the podcast 'Baywatch Berlin
+
+# Introduction
+
+The podcast market has grown strongly in recent years. Many new podcasts meet many new listeners.
+This also makes it possible to market podcasts and place advertisements in them.
+The podcast by Klaas Heufer-Umlauf, Thomas Schmitt and Jakob Lundt, called 'Baywatch Berlin', also does this.
+The advertisements are clearly separated from the content by an insert.
+
+# Goal
+
+Through this insert, it should be easy to clearly filter out the beginning and end of the commercials.
+This way, the insert can simply be cut out of an episode and searched for in all episodes.
+
+# Procedure
+
+Here the individual steps are described how to proceed.
+
+## Research
+
+The Python programming language is used as the basis. Jupyter with Anaconda is used as the IDE.
+The approach should be as simple as possible.
+After a short search, a Stackoverflow answer was found that could be useful.
+https://stackoverflow.com/a/67469084
+
+This answer was adapted and tailored to this use case.
+
+## Reformatting MP3 files
+
+For the analysis, the files had to be converted to wav format.
+
+For a smaller file size and faster processing, the files were converted to a smaller mp3 file beforehand:
+
+mp3 original --> mp3 smaller bitrate --> wav
+
+## Find advertising timestamp
+
+The [snippet](https://stackoverflow.com/a/67469084) was adapted and used here.
+Only the correlation values had to be adapted, which controls when a match is marked.
+Since only the data was saved, the graphics are not necessary and were removed.
+
+## Analysis of the timestamps
+
+For the analysis, the data was prepared and displayed with plotly.
+
+## Analysis of the metadata
+
+For the analysis of the metadata, these were read from the mp3s.
+The running time per episode as well as the running time of the episode with a trend line was displayed.
+
+# Result
+
+Finally, the goal was achieved and the timestamps could be read out successfully.
+During the evaluation it became clear that there are always two commercial breaks.
+Surprisingly, the sum of these blocks is almost always 284 seconds.
+Since episode 94, however, this is apparently no longer the case.
+
+The length of the episodes has also increased in volatility.
+Between episode 30 and 66, the episodes were usually around 90 minutes long.
+These results are not that consistent and the episode length fluctuates greatly between 93 and 67 minutes.
+
+Translated with www.DeepL.com/Translator (free version)
