@@ -29,6 +29,8 @@ Diese Antwort wurde angepasst und auf diesen Use Case zugeschnitten.
 
 ## MP3 Dateien umformatieren
 
+[Jupyter Datei: format mp3 to wav](format_mp3_to_wav.ipynb)
+
 Für die Analyse mussten die Dateien in das wav Format gebracht werden.
 
 Für eine geringere Datei Größe und eine schnellere Bearbeitung wurden vorher die Dateien zu einer kleineren mp3 Datei konvertiert:
@@ -37,15 +39,21 @@ mp3 Original --> mp3 kleinere Bitrate --> wav
 
 ## Werbung Timestamp finden
 
+[Jupyter Datei: extract ad timestamps](extract_ad_timestamps.ipynb)
+
 Das [Snippet](https://stackoverflow.com/a/67469084) wurde hier angepasst und verwendet.
 Einzig die Korrelationswerte mussten angepasst werden, die steuert ab wann ein Übereinstimmung markiert wird.
 Da nur die Daten gespeichert wurden, sind die Grafiken auch nicht notwendig und wurden entfernt.
 
 ## Analyse der Timestamps
 
+[Jupyter Datei: analyze ad timestamps](analyze_ad_timestamps.ipynb)
+
 Für die Analyse wurden die Daten aufbereitet und mit plotly dargestellt.
 
 ## Analyse der Metadaten
+
+[Jupyter Datei: analyze episodes metadata](analyze_episodes_metadata.ipynb)
 
 Für die Analyse der Metadaten wurden diese von den mp3s ausgelesen.
 Dargestellt wurde die Laufzeit je Episode sowie die Laufzeit der Episode mit einer Trendlinie
@@ -99,6 +107,8 @@ This answer was adapted and tailored to this use case.
 
 ## Reformatting MP3 files
 
+[Jupyter File: format mp3 to wav](format_mp3_to_wav.ipynb)
+
 For the analysis, the files had to be converted to wav format.
 
 For a smaller file size and faster processing, the files were converted to a smaller mp3 file beforehand:
@@ -107,15 +117,21 @@ mp3 original --> mp3 smaller bitrate --> wav
 
 ## Find advertising timestamp
 
+[Jupyter File: analyze ad timestamps](analyze_ad_timestamps.ipynb)
+
 The [snippet](https://stackoverflow.com/a/67469084) was adapted and used here.
 Only the correlation values had to be adapted, which controls when a match is marked.
 Since only the data was saved, the graphics are not necessary and were removed.
 
 ## Analysis of the timestamps
 
+[Jupyter File: analyze ad timestamps](analyze_ad_timestamps.ipynb)
+
 For the analysis, the data was prepared and displayed with plotly.
 
 ## Analysis of the metadata
+
+[Jupyter File: analyze episodes metadata](analyze_episodes_metadata.ipynb)
 
 For the analysis of the metadata, these were read from the mp3s.
 The running time per episode as well as the running time of the episode with a trend line was displayed.
