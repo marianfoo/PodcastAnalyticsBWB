@@ -52,14 +52,22 @@ Dargestellt wurde die Laufzeit je Episode sowie die Laufzeit der Episode mit ein
 
 # Ergebnis
 
+## Werbung
+
 Schlussendlich wurde das Ziel erreicht und die Timestamps konnten erfolgreich herausgelesen werden.
 Bei der Auswertung wurde deutlich dass es immer zwei Werbeblöcke gibt.
 Erstaunlicherweise beträgt die Summe dieser Blöcke so gut wie immer 284 Sekunden.
 Seit Folge 94 ist die jedoch anscheinend nicht mehr der Fall.
 
+![Plot Ad Duration](plot_ads.png "Plot Ad Duration")
+
+## Metadata
+
 Die Länge der Folgen hat auch an Volatilität zugenommen.
 Zwischen Folge 30 und 66 waren die Folgen meist rund 90 Minuten lang.
 So konsequent sind diese Ergebisse nicht und die Folgenlänge schwankt stark zwischen 93 und 67 Minuten.
+
+![Plot Podcast Duration](plot_duration.png "Plot Podcast Duration")
 
 
 # Analysis of the podcast 'Baywatch Berlin
@@ -114,13 +122,19 @@ The running time per episode as well as the running time of the episode with a t
 
 # Result
 
+## Ads
+
 Finally, the goal was achieved and the timestamps could be read out successfully.
 During the evaluation it became clear that there are always two commercial breaks.
 Surprisingly, the sum of these blocks is almost always 284 seconds.
 Since episode 94, however, this is apparently no longer the case.
 
+![Plot Ad Duration](plot_ads.png "Plot Ad Duration")
+
+## Metadata
+
 The length of the episodes has also increased in volatility.
 Between episode 30 and 66, the episodes were usually around 90 minutes long.
 These results are not that consistent and the episode length fluctuates greatly between 93 and 67 minutes.
 
-Translated with www.DeepL.com/Translator (free version)
+![Plot Podcast Duration](plot_duration.png "Plot Podcast Duration")
