@@ -60,6 +60,15 @@ Dargestellt wurde die Laufzeit je Episode sowie die Laufzeit der Episode mit ein
 
 # Ergebnis
 
+## Liste aller Episoden (ohne Spezialfolgen)
+
+Hier ist die Liste mit allen Folgen ohne Spezialfolgen:
+
+[Hier eine Liste mit allen Episoden](list_episodes.csv)
+
+
+![CSV Liste alle Folgen](list_episodes_csv.png "CSV Liste alle Folgen")
+
 ## Werbung
 
 Schlussendlich wurde das Ziel erreicht und die Timestamps konnten erfolgreich herausgelesen werden.
